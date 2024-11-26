@@ -30,7 +30,7 @@
     "start": "node index.js"
   },
   "engines": {
-    "node": ""
+    "node": "20.17.0"
   },
   "author": "Mohamed Yossry",
   "license": "ISC"
