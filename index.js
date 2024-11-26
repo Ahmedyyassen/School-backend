@@ -56,5 +56,7 @@ app.use((error, req, res, next) => {
     res.status(status).json({ message: message });
   });
 DBConcction(() => {
-    app.listen(port)
+    app.listen(port , ()=>{
+      res.send("server is runing ............")
+    })
 })
